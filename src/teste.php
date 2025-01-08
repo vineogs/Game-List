@@ -15,8 +15,6 @@ try {
         $stmt->bindParam(':nome', $nome);
         $stmt->execute();
     }
-    
-    echo "Dados inseridos";
 } catch (PDOException $e) {
     echo "Erro: " . $e->getMessage();
 }

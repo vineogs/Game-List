@@ -13,8 +13,8 @@
         <button type="submit">Enviar</button>
     </form>
 
-    <form action="api.php" method="POST"><br><br>
-        <button type="submit" id="api" name="api">GHIBLI</button>
+    <form action="api.php" method="GET"><br><br>
+        <button type="submit" id="api" name="api">STEAM</button>
     </form>
 </body>
 </html>
